@@ -1,0 +1,15 @@
+@import "./stylesheets/App-header";
+@import "./stylesheets/Face";
+@import "./stylesheets/Calendar";
+@import "./stylesheets/Editor";
+
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-rows: 10% 1fr;
+  grid-template-columns: 1fr;
+}
+
+.App-link {
+  color: #61dafb;
+}

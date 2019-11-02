@@ -1,0 +1,16 @@
+.App-header {
+  background-color: #474787;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7em;
+  color: white;
+  border: 0;
+  &-span {
+    text-decoration-line: none;
+  }
+  button {
+    cursor: pointer;
+  }
+}
